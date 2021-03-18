@@ -89,3 +89,33 @@
     width: 100%;
     margin: 0 auto;
 }
+
+.black-p {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 113px;
+}
+
+.image1 {
+    max-width: 300px;
+    width: 100%;
+    height: 450px;   
+}
+
+.image2{
+    float: right;
+    max-width: 220px;
+    width: 100%;
+}
+
+.designer, .infleuncer, .photographer, .model {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* მეორე სექცია */
+
