@@ -2,7 +2,7 @@
     max-width: 1920px;
     width: 100%;
     height: 1080px;
-    background-image: url(../img/bgimage.jpg);
+    background-image: url(../img/bgimage1.jpg);
 }
 
 
@@ -71,51 +71,103 @@
     height: 2189px;
 }
 
+.black-div2 {
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
+}
+
+.black-h5, .designer, .infleuncer, .photographer, .model {
+    margin-top: 150px;
+}
+
+.black-h4 {
+    margin-bottom: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.black-h5 {
+    padding-top: 200px;
+    font-size: 60px;
+    text-align: center;
+}
+
 .black-h4, .black-h5, .black-p {
     color: white;
 }
 
-.black-h5 {
-    margin: 0 auto;
-    font-size: 60px;
-    max-width: 339px;
+/* white div */
+
+.white-div {
+    max-width: 1920px;
     width: 100%;
-    padding-top: 237px;
-    margin-bottom: 173px;
+    height: 2000px;
 }
 
-.black-h4 {
-    max-width: 270px;
-    width: 100%;
-    margin: 0 auto;
+.image8 {
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.black-p {
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 113px;
-}
-
-.image1 {
-    max-width: 300px;
-    width: 100%;
-    height: 450px;   
-}
-
-.image2{
-    float: right;
-    max-width: 220px;
-    width: 100%;
-}
-
-.designer, .infleuncer, .photographer, .model {
-    max-width: 300px;
+.whitediv-text {
+    max-width: 750px;
     width: 100%;
     margin: 0 auto;
 }
 
+.networks {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
 
-/* მეორე სექცია */
+.black-divider {
+    max-width: 750px;
+    width: 100%;
+    background-color: black;
+    height: 2px;
+}
+
+.black-divider2 {
+    max-width: 750px;
+    width: 100%;
+    background-color: black;
+    height: 2px;
+    margin-top: 30px;
+
+}
+
+
+
+.instagram {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+
+.followers1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.little-p {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.youtube {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
 
