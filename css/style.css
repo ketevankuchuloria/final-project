@@ -239,14 +239,19 @@
 
 .blackdiv-2 {
     background-color: black;
-    height: 700px;
+    height: 1200px;
 }
 
 .check {
     color: #FA6A18;
     font-size: 30px;
-    padding-top: 100px;
-    padding-left: 80px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.checkp {
+    letter-spacing: 25px;
 }
 
 .footer {
@@ -263,7 +268,86 @@
 
 .footer-p {
     color: white;
-   margin-top: 50px;
+   text-align: center;
    width: 300px;
+   position: absolute;
+   top: 850px;
 }
 
+
+
+/* test */
+
+.black-div {
+    position: relative;
+}
+
+.image1 {
+    position: absolute;
+    top: -150px;
+    left: 50px;
+}
+
+.image2 {
+    position: absolute;
+    right: 30px;
+    top: -100px;
+}
+
+.image3 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+.image4 {
+    position: absolute;
+    margin-top: 900px;
+    left: 100px;
+}
+
+.image5 {
+    position: absolute;
+    top: 300px;
+    right: 1px;
+}
+
+.image6 {
+    position: absolute;
+    right: 100px;
+    top:550px;
+}
+
+.image7 {
+    position: absolute;
+    bottom: -200px;
+    right: 100px;
+}
+
+.path {
+    position: absolute;
+    bottom: -150px;
+    right: 100px;
+}
+
+.blackdiv-2 {
+    position: relative;
+}
+
+.image9 {
+    position: absolute;
+    top: -100px;
+    left: 100px;
+
+}
+
+.image10 {
+    position: absolute;
+    right: 400px;
+    top: 200px;
+}
+
+.footer-class {
+    position: absolute;
+    top: 470px;
+}
