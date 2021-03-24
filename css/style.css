@@ -430,3 +430,7 @@
     position: absolute;
     top: 470px;
 }
+ 
+.ul-li:hover {
+    font-size: 30px;
+}
