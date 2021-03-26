@@ -200,3 +200,106 @@
         font-size: 35px;
     }
 }
+
+
+@media (max-width: 652px) {
+    #fname, #email{
+        width: 150px;
+    }
+
+    #subject {
+        width: 400px;
+    }
+
+    #message {
+        width: 400px;
+        height: 300px;
+    }
+
+    .send-button {
+        width: 100px;
+    }
+    
+    .forms-div {
+        width: 460px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    #fname, #email {
+        width: 100px;
+        height: 40px;
+    }
+    #subject {
+        width: 300px;
+        height: 40px;
+    }
+
+    #message {
+        width: 300px;
+        height: 200px;
+    }
+    .forms-div {
+        width: 320px;
+    }
+    .send-button {
+        width: 70px;
+    }
+
+    .image16 {
+        width: 200px;
+    }
+    .image17 {
+        width: 200px;
+    }
+    .image18 {
+        width: 200px;
+    }
+}
+
+@media (max-width:489px) {
+    .image16 {
+        width:150px
+    }
+
+    .image17 {
+        width:150px
+    }
+}
+
+@media (max-width:437px) {
+    .image16 {
+        display: none;
+    }
+
+    .image17 {
+        display: none;
+    }
+
+    .image18 {
+        display: none;
+    }
+    #fname, #email {
+        width: 100px;
+        height: 40px;
+    }
+    #subject {
+        width: 200px;
+        height: 40px;
+    }
+
+    #message {
+        width: 200px;
+        height: 200px;
+    }
+
+    #email {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .forms-div {
+        width: 230px;
+    }
+}
