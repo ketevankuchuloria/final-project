@@ -1,0 +1,140 @@
+@media (max-width: 1124px) {
+      .image1 {
+          display: none;
+      }
+      .image6 {
+          display: none;
+      }
+      .image7 {
+          display: none;
+      }
+      .path {
+          display: none;
+      }
+
+      .footer-p {
+          top: 900px;
+      }
+}
+
+@media (max-width: 921px) {
+      .image3 {
+          width: 150px;
+      }
+      .image4 {
+           width: 150px;
+          left: 10px;
+      }
+
+}
+
+@media (max-width: 913px) {
+    .footer {
+        padding-left: 300px;
+    }
+    .image10 {
+        display: none;
+    }
+}
+
+@media (max-width :800px) {
+    .li-a {
+        display: none;
+    }
+    .somedetails {
+        font-size: 30px;
+    }
+    .image5 {
+        width: 150px;
+    }
+    .image8 {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 686px) {
+    .image3 {
+        display: none;
+    }
+    .footer {
+        padding-left: 100px;
+    }
+    .bgpath {
+        display: none;
+    }
+    .sarah {
+        font-size: 50px;
+    }
+    .proffesion {
+        font-size: 50px;
+    }
+    .black-h5 {
+        font-size: 50px;
+    }
+
+    .talktome {
+        font-size: 50px;
+    }
+    .ideas {
+        font-size: 50px;
+    }
+    .collab {
+        font-size: 50px;
+    }
+    .footer-h3 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 553px) {
+    .image5 {
+        display: none;
+    }
+    .image4 {
+        display:none
+    }
+    .somedetails {
+        font-size: 20px;
+    }
+
+    .sarah {
+        font-size: 30px;
+    }
+    .proffesion {
+        font-size: 30px;
+    }
+    .black-h5 {
+        font-size: 30px;
+    }
+    .image2 {
+        display: none;
+    }
+    .talktome {
+        font-size: 30px;
+    }
+    .ideas {
+        font-size: 30px;
+    }
+    .collab {
+        font-size: 30px;
+    }
+    .enquire {
+        font-size: 20px;
+    }
+
+    .divider3 {
+        width: 200px;
+    }
+    .divider4 {
+        width: 100px;
+    }
+    .footer-h3 {
+        font-size: 30px;
+    }
+    .footer-p {
+        left: 50px;
+
+    }
+}
