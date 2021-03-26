@@ -138,3 +138,65 @@
 
     }
 }
+
+/* second page responsive */
+@media (max-width: 1267px) {
+    .shop {
+        flex-wrap: wrap;
+    }
+
+    .shopblazer {
+        flex-wrap: wrap;
+    }
+
+    .bra-earring {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 635px){
+    .image11 {
+        width: 350px;
+    }
+
+    .image12 {
+        width: 350px;
+        margin-top: 50px;
+    }
+    .image1-earring {
+        width: 350px;
+    }
+
+    .image13 {
+        width: 350px;
+        height: 500px;
+        margin-top: 50px;
+    }
+    .image15 {
+        width: 350px;
+        margin-top: 50px;
+    }
+}
+
+
+
+@media (max-width: 544px) {
+    .allcollection {
+        font-size: 70px;
+    }
+    .shopby {
+        font-size: 50px;
+    }
+    .findhere {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 414px) {
+    .allcollection {
+        font-size: 50px;
+    }
+    .shopby {
+        font-size: 35px;
+    }
+}
