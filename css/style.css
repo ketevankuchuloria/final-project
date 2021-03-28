@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .bg-div {
     max-width: 1920px;
     width: 100%;
@@ -9,8 +16,11 @@
  
 
 .nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around; 
+    -ms-flex-pack: distribute;
+        justify-content: space-around; 
     padding-top: 30px;
     letter-spacing: 7px;
 }
@@ -32,7 +42,9 @@
     font-size: 100px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     font-family: 'Playfair Display';
 }
 
@@ -216,8 +228,12 @@
 
 
 .instagram {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 30px;
     font-size: 35px;
     font-family: 'Playfair Display';
@@ -225,8 +241,12 @@
 
 
 .followers1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     text-align: center;
     font-size: 14px;
     margin-top: 30px;
@@ -240,8 +260,12 @@
 }
 
 .youtube {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     text-align: center;
     margin-top: 50px;
     font-size: 35px;
@@ -279,8 +303,13 @@
 }
 
 .talk {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
     margin-top: 250px;
     font-family: 'Playfair Display';
@@ -465,8 +494,11 @@
 .shop {
     max-width: 1920px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 100px;
 }
 
@@ -494,8 +526,11 @@
 }
 
 .shopblazer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 100px;
     font-family: 'Cormorant Unicase';
 }
@@ -506,8 +541,12 @@
 }
 
 .blazer-text, .glass-text, .bra-text, .earring-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 30px;
 }
 
@@ -523,8 +562,11 @@
 
 .bra-earring {
     margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     font-family: 'Cormorant Unicase';
 }
 
@@ -647,7 +689,9 @@
      position: absolute;
      top: 50%;
      left: 50%;
-     transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+             transform: translate(-50%, -50%);
 
  }
 
