@@ -702,11 +702,13 @@
 
 
 
+
  /* burger icon  */
 
  .container {
 	position: relative;
     display: none;
+    z-index: 5;
  }
 
 
