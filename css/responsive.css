@@ -303,3 +303,13 @@
         width: 230px;
     }
 }
+
+@media (max-width:853px) {
+    .nav-ul {
+        display: none;
+    }
+
+    .container {
+        display: block;
+    }
+}
